@@ -18,14 +18,7 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://unpkg.com/scrollreveal"></script>
-    <link rel="stylesheet" href="style.css" />
     <title>Arkar Phyo</title>
-    <!-- <script>
-      ScrollReveal().reveal(".hero", {
-        distance: "100px",
-        delay: 300,
-      });
-    </script> -->
     <style>
       * {
         font-family: "Montserrat", sans-serif !important;
@@ -53,15 +46,9 @@
         }
       }
     </style>
-    <script>
-      ScrollReveal().reveal(".slide-up", {
-        distance: "150%",
-        origin: "bottom",
-        opacity: null,
-      });
-    </script>
   </head>
   <body class="bg-white text-black relative">
+    <script src="index.js"></script>
     <!-- Nav Bar -->
     <nav
       class="sticky top-0 left-0 right-0 flex items-center border-b-2 justify-between pr-8 border-black z-[10000] bg-white"
@@ -71,7 +58,6 @@
       >
         Portfolio
       </h2>
-
       <label class="lg:hidden swap swap-rotate">
         <input type="checkbox" />
         <svg
@@ -102,6 +88,7 @@
             d="M6 18 18 6M6 6l12 12"
           />
         </svg>
+
         <!-- <div class="bg-base-200 collapse">
           <input type="checkbox" class="peer" />
           <div
@@ -114,7 +101,6 @@
           </div>
         </div> -->
       </label>
-
       <!-- Menu -->
       <div class="flex gap-[100px] text-2xl font-medium max-lg:hidden">
         <div class="nav-hover group">
@@ -136,24 +122,26 @@
           />
         </div>
         <div class="mainright uppercase sm:pt-[20px]">
-          <h1 class="text-8xl max-w-[700px] max-md:text-6xl">
+          <h1 class="text-8xl max-w-[700px] max-md:text-6xl card">
             Hey I'm Arkar Phyo
           </h1>
-          <p class="max-w-[500px] text-4xl mt-5 max-md:text-lg">
+          <p class="max-w-[500px] text-4xl mt-5 max-md:text-lg card">
             A PROJECT COORDINATOR WITH 3 YEARS OF EXPERIENCE IN THE INDUSTRY. I
             SPECIALIZE IN CREATING VISUALLY STUNNING DESIGNS FOR PRINT AND WEB.
           </p>
-          <p class="max-w-[600px] text-4xl mt-5 max-md:text-lg">
+          <p class="max-w-[600px] text-4xl mt-5 max-md:text-lg card">
             MY GOAL IS TO WORK WITH CLIENTS WHO VALUE CREATIVITY AND DESIGN.
           </p>
           <div class="mt-[150px]">
-            <h1 class="text-3xl underline underline-offset-8 font-semibold">
+            <h1
+              class="text-3xl underline underline-offset-8 font-semibold card"
+            >
               My Skills
             </h1>
             <div
               class="grid grid-cols-2 mt-12 gap-x-2 gap-y-10 max-md:grid-cols-1"
             >
-              <div>
+              <div class="card">
                 <img
                   src="https://assets-global.website-files.com/64103cb9429ed550fb66dc27/6411f1ed4eddb57a68003926_abstract-shape%20(2).png"
                   alt=""
@@ -161,7 +149,7 @@
                 />
                 <h1 class="text-2xl mt-5 font-semibold">Graphic Design</h1>
               </div>
-              <div>
+              <div class="card">
                 <img
                   src="https://assets-global.website-files.com/64103cb9429ed550fb66dc27/6411f1ed27c02a2788888144_abstract-shape%20(3).png"
                   alt=""
@@ -169,7 +157,7 @@
                 />
                 <h1 class="text-2xl mt-5 font-semibold">BRANDING & IDENTITY</h1>
               </div>
-              <div>
+              <div class="card">
                 <img
                   src="https://assets-global.website-files.com/64103cb9429ed550fb66dc27/6411f1ed25108d3e36ffbfc1_abstract-shape.png"
                   alt=""
@@ -177,7 +165,7 @@
                 />
                 <h1 class="text-2xl mt-5 font-semibold">WEB DESIGN</h1>
               </div>
-              <div>
+              <div class="card">
                 <img
                   src="https://assets-global.website-files.com/64103cb9429ed550fb66dc27/6411f1ed9c48da756b401ee0_abstract-shape%20(1).png"
                   alt=""
@@ -189,12 +177,12 @@
           </div>
           <div>
             <h1
-              class="text-3xl underline underline-offset-8 mt-[150px] font-semibold"
+              class="text-3xl underline underline-offset-8 mt-[150px] font-semibold card"
             >
               EXPERIENCE
             </h1>
             <div class="grid gap-y-[50px] mt-10">
-              <div class="grid gap-5">
+              <div class="grid gap-5 card">
                 <h4 class="text-sm text-gray-400">WEBFLOW AT 2010-2014</h4>
                 <h1 class="text-2xl">FULL-STACK DEVELOPER</h1>
                 <ul
@@ -208,7 +196,7 @@
                   <li>Created marketing materials for local events</li>
                 </ul>
               </div>
-              <div class="grid gap-5">
+              <div class="grid gap-5 card">
                 <h4 class="text-sm text-gray-400">TESLA AT 2014-2017</h4>
                 <h1 class="text-2xl">MOTION & INTERACTIVE DESIGNER</h1>
                 <ul
@@ -218,7 +206,7 @@
                   <li>Developed brand guidelines for multiple clients</li>
                 </ul>
               </div>
-              <div class="grid gap-5">
+              <div class="grid gap-5 card">
                 <h4 class="text-sm text-gray-400">WEBFLOW AT 2010-2014</h4>
                 <h1 class="text-2xl">ADOBE AT 2017-2020</h1>
                 <ul
@@ -231,7 +219,7 @@
                   <li>Created marketing materials for local events</li>
                 </ul>
               </div>
-              <div class="grid gap-5">
+              <div class="grid gap-5 card">
                 <h4 class="text-sm text-gray-400">WEBFLOW AT 2010-2014</h4>
                 <h1 class="text-2xl">UI/UX DESIGNER</h1>
                 <ul
@@ -255,7 +243,7 @@
       </div>
       <div class="mt-[200px] snap-mandatory snap-x max-lg:hidden">
         <h1
-          class="px-[5%] py-10 text-2xl underline underline-offset-8 font-semibold"
+          class="px-[5%] py-10 text-2xl underline underline-offset-8 font-semibold card"
         >
           MY WORK
         </h1>
@@ -324,7 +312,7 @@
           </div>
           <div class="w-[550px] pr-[50px] flex-none items-end snap-center">
             <img
-              src="https://assets-global.website-files.com/64103cb9429ed52f0e66dc39/64132d537f0cc40601e19906_work-5-p-1080.jpg"
+              src="https://assets-global.website-files.com/64103cb9429ed52f0e66dc39/64132d45915b1153e7d54b02_work-4-p-1080.jpg"
               alt=""
               class="max-w-full"
             />
@@ -395,7 +383,7 @@
           </div>
           <div class="w-[300px]">
             <img
-              src="https://assets-global.website-files.com/64103cb9429ed52f0e66dc39/64132d537f0cc40601e19906_work-5-p-1080.jpg"
+              src="https://assets-global.website-files.com/64103cb9429ed52f0e66dc39/64132d45915b1153e7d54b02_work-4-p-1080.jpg"
               alt=""
               class="max-w-full"
             />
@@ -412,13 +400,13 @@
       </div>
     </div>
     <div class="px-[100px] mt-[150px] max-md:px-[10px] max-lg:px-[30px]">
-      <h1 class="text-2xl underline underline-offset-8 font-semibold">
+      <h1 class="text-2xl underline underline-offset-8 font-semibold card">
         TESTIMONIALS
       </h1>
       <div class="carousel w-full bg-[#f7f6f9] h-[300px] rounded-lg mt-10">
         <div
           id="item1"
-          class="carousel-item w-full flex items-center justify-center flex-col gap-7"
+          class="carousel-item w-full flex items-center justify-center flex-col gap-7 card"
         >
           <div class="flex">
             <svg
@@ -500,7 +488,7 @@
         </div>
         <div
           id="item2"
-          class="carousel-item w-full flex items-center justify-center flex-col gap-7"
+          class="carousel-item w-full flex items-center justify-center flex-col gap-7 card"
         >
           <div class="flex">
             <svg
@@ -584,11 +572,11 @@
     </div>
     <div class="px-[100px] mt-[150px] max-lg:px-[30px]">
       <h1
-        class="text-2xl underline underline-offset-8 mt-[100px] font-semibold"
+        class="text-2xl underline underline-offset-8 mt-[100px] font-semibold card"
       >
         NEWS
       </h1>
-      <div class="mt-10 grid grid-cols-2 gap-y-10 max-md:grid-cols-1">
+      <div class="mt-10 grid grid-cols-2 gap-y-10 max-md:grid-cols-1 card">
         <div class="border-l-4 pl-5 border-black grid gap-y-8">
           <div class="flex gap-5 items-center">
             <button
@@ -756,4 +744,12 @@
       </div>
     </div>
   </body>
+  <script>
+    ScrollReveal().reveal(".card", {
+      distance: "10%",
+      origin: "bottom",
+      duration: 700,
+      delay: 100,
+    });
+  </script>
 </html>

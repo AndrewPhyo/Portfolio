@@ -1,0 +1,14 @@
+body {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  row-gap: 10px;
+  column-gap: 20px;
+  padding: 0 20px 0 20px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: red;
+  height: 300px;
+}
